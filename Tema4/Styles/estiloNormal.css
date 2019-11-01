@@ -1,0 +1,24 @@
+#enlaces{
+    background-color: rgb(135, 246, 234);
+    border: solid;
+}
+#enlace1,#enlace2{
+    color:rgb(36, 46, 225);
+    text-decoration: none;
+}
+body{
+    background-color: rgb(241, 238, 112);
+    width: 80%;
+    margin: 0 auto;
+}
+html{
+    background-color: rgb(112, 241, 191);
+}
+#invisible{
+    visibility: visible;
+    font-weight: bolder;
+}
+#marco{
+    border: solid;
+    background-color: yellow;
+}

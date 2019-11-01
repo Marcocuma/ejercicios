@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estiloSin.css'>
+    <script type="text/javascript">
+        function changeStyle(name)
+        { var _head = document.getElementsByTagName('head')[0];
+        console.log(name);
+          var _link = document.createElement('link');
+        _link.type = 'text/css';
+        _link.href = name;
+        _link.rel = 'stylesheet';
+        _head.appendChild(_link);
+        }
+        </script>
+</head>
+<body>
+    <nav id="enlaces">
+        <a href="#" id="enlace1" onclick="changeStyle('estiloNormal.css')">Tema normal</a>
+        <a href="#" id="enlace2" onclick="changeStyle('estiloSin.css')">Tema minimalista</a>
+    </nav>
+    <h1 id="titulo">Pagina de ejemplo</h1>
+    <p>En esta página vamos a comprobar  lo facil que es aplicar 
+        estilos mediante css a un documento seleccionado</p>
+        <br/>
+    <p>Lo ideal es que al seleccionar un estilo permanezca siempre igual
+        para el usuario.
+    </p>
+    <p>Hasta ahora no hemos visto como hacerlo.¿Se te ocurre como?
+    </p>
+    <br/>
+    <br/> 
+    <p id="invisible">Solo visible en el tema normal.</p>
+    <br/>
+    <br/> 
+    <div id="marco"><p>Esto esta dentro de un marco</p></div>
+</body>
+</html>

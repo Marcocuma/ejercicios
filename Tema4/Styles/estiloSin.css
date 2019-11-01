@@ -1,0 +1,24 @@
+#enlaces{
+    background-color: white;
+    text-decoration: none;
+    border: none;
+}
+#enlace1,#enlace2{
+    color:none;
+}
+body{
+    background-color: white;
+    width: none;
+    margin: 0;
+}
+html{
+    background-color: white;
+}
+#invisible{
+    visibility: hidden;
+    font-weight: bolder;
+}
+#marco{
+    border: none;
+    background-color: white;
+}

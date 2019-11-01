@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Events</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='events.js'></script>
+    <style>
+        img{
+            position:fixed;
+        }
+    </style>
+</head>
+<body onmousemove="ratonEnMovimiento(event)">
+    <img src="rosco.jpg" id="rosco" onclick="clickImagen(event)">
+    <a onclick="alerta()">Haz click perro</a>
+    <div id="coordenadas"></div>
+    <div id="tabla"></div>
+    <input type="button" onclick="borraTabla(event)" value="Borrar">
+</body>
+</html>
